@@ -1,0 +1,8 @@
+Part one of lab -pings
+To my So, I send a ping to myself over the wifi so see what i would get. I looked that I was sending the ping to my router then after a bit the router would send the ping to my computer. What was in the packet i could not tell, just a bunch of gibberish in English but I bet in binary it is asking for a return signal.
+Part two http
+When I first when to the web page the program showed that it was sending requests for information and the webserver would respond with an ok or 200 code. Then I would send the HTML and the CSS.  
+When I used the terminal for the call all it sends back was the okay or 200 code but I never got back the HTML or CSS from the server
+Most of the output looks to be encrypted or just not readable. It might be in binary or encrypted
+
+

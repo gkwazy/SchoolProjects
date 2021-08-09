@@ -1,0 +1,14 @@
+Question 1 (5 points)
+A block cypher with an 8 bit block size is very easy to break with a known-plaintext attack. Describe how you would do so. Hint, there's a version of this exact challenge in many newspapers daily (They're called cryptograms, here's an example).
+Answer-  With a 8-bit block size the attacker can just start guessing outputs. One way to do this is see if there are patterns or characters that appear back to back. In the English language, there are only a few characters that follow them selfs(“ll”,”oo”,etc). Also you can set the percent of how often a character appears in the encrypted text and compair that to how often characters appear in plain text. It will narrow down the options for the character. And after you guess correctly one of the characters you can then find it and uncode that character in the reset of the text that also makes it easier to solve other characters (knowing Q can make it easier to find U).
+
+
+Question 2 (10 points)
+Assume you're sending a long message using a block cypher (like AES) with the following scheme: split the message into blocksize chunks, then encrypt each with the same key. Basically Alice sends Bob AES(m1, k), AES(m2, k), AES(m3, k), etc.
+a(3 points): Even if they can't decrypt blocks, what information can an eavesdropper discern from this scheme? Hint: imagine Alice is sending a table of data with fixed-length rows
+The eavesdropper can still see patterns in the blocks and be able to see what blocks have the same information in them. Much like how if you encrypt the image of the Linux penguin with this method you can still tell what it is. This helps decrypts the message for people that should not be able to. 
+b(4 points): Things are actually even worse! A malicious attacker can actually CHANGE the message that Bob receives from Alice (slightly). How? This is particularly bad if the attacker knows the structure of the data being sent (like in part a)
+The attacker can start to send bytes or characters to see how they are encrypted. From this, they will be able to find the key that is being used by both parties. 
+c(3 points): How could you modify the scheme to mitigate/prevent these types of attack?
+You could have your key change with every block so that it is harder to see patterns for example if you make the key +1 every block it would make the same block of data look different from one other. 
+

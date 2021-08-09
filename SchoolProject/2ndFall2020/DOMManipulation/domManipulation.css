@@ -1,0 +1,34 @@
+body{
+    color: white;
+    background-image: url("http://www.allwhitebackground.com/images/5/Cool-Background-HD-Photos.jpg");
+    text-align: center;
+    position: relative; 
+    top: 100px;      
+}
+
+header{
+    background: white;
+    color: black;
+    text-align:center;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+}
+
+.myTable{
+    text-align: center;
+    margin: 0 auto;     
+}
+
+.youtube{
+    color:skyblue;
+}
+
+a:link {
+    color: skyblue;
+}
+
+a:visited{
+    color:yellow;
+}

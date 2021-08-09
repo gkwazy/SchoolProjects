@@ -1,0 +1,30 @@
+body{
+    /* background-image: url("https://i.gifer.com/XVhh.gif");  */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+td {
+    padding: 10px;
+    border: 1px solid white;
+    border-color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color:white;
+    
+}
+
+td[clicked = true]{
+    background-color: orange;
+    color:blue;
+}
+
+td[highlighted = true]{
+    background-color: purple;
+    color:yellow;
+}
+
+table{
+    border:2px solid red;
+}

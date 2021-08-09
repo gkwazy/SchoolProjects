@@ -1,0 +1,21 @@
+12 in bianry:1100, hex:c
+63 in bianry: 111111, hex 3F
+100 in bianry: 1100100; hex 64
+127 in bianry:1111111; hex 7F
+254 in bianry:11111110; hex FE
+
+100 in deci: 4; hex:4
+10001 in deci: 17; hex: 11
+100010 in deci: 34; hex: 22
+11000000 in deci:192; hex: C0
+11111111 in deci: 255; hex FF
+
+A in deci: 10; binary:1010
+C0 in deci: 192; binary:11000000
+FF in deci: 255; bianry:11111111
+BEEF in deci:48879; bianry: 101111101110111;
+F00D in deci:61453; bianry: 1110000001101;
+
+The biggest number you can write with 8 binary
+ is 255 or  11111111 or FF bigest number you can store with 4 bytes
+You will need 5 fingers 

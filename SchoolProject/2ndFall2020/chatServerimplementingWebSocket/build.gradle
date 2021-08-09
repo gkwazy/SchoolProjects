@@ -1,0 +1,30 @@
+plugins{
+    id 'java'
+}
+
+sourceSets{
+    main {
+        java{
+            srcDirs = ['src']
+        }
+    }
+}
+
+jar{
+    manifest{
+        attributes 'Main-Class': 'gk.company.Main'
+    }
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.code.gson:gson:2.8.6'
+}
+sourceCompatibility = '1.12'
+targetCompatibility = '1.12'
+version = '0.0.1'

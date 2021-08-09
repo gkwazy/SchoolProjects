@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    background-image: url("https://i.pinimg.com/originals/be/f4/84/bef484c1c2679790df69058bcd570d53.jpg");
+
+    background-repeat: no-repeat;
+    background-size: 200%, 200%;
+}
+
+#logInCard {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.myCards {
+    margin-bottom: 10px;
+}

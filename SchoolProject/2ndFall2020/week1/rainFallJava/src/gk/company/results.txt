@@ -1,0 +1,18 @@
+
+
+Rainfall data for Atlanta:
+The average rainfall amount for January is 4.30 inches.
+The average rainfall amount for February is 4.23 inches.
+The average rainfall amount for March is 4.80 inches.
+The average rainfall amount for April is 3.58 inches.
+The average rainfall amount for May is 3.59 inches.
+The average rainfall amount for June is 4.28 inches.
+The average rainfall amount for July is 4.36 inches.
+The average rainfall amount for August is 4.08 inches.
+The average rainfall amount for September is 3.80 inches.
+The average rainfall amount for October is 2.76 inches.
+The average rainfall amount for November is 3.73 inches.
+The average rainfall amount for December is 4.69 inches.
+The rain amounts (in inches) of the four driest months are: 8.26, 3.82, 6.42, 2.91
+TThe rain amounts (in inches) of the four wettest months are: 3.93, 2.55, 7.98, 12.51
+The median months is January 2006 5.10
